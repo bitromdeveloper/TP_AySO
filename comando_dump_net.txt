@@ -1,0 +1,2 @@
+tcpdump
+Para buscar este comando, ejecuta: apropos traffic o man tcpdmp
