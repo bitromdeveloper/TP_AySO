@@ -1,0 +1,194 @@
+ls
+cd repogit/
+ls
+cd finamore_repo/
+git status
+git commit -m "Primer commit"
+git config --global user.email "finamorelucas@hotmail.com"
+git config --global user.name "bitromdeveloper"
+git commit -m "Primer commit"
+vagrant halt
+exit
+ls
+cd repogit
+ls
+cd ..
+whoami
+pwd
+echo "hola"
+echo $HOME
+man echo
+cd repogit
+ls
+git clone https://github.com/bitromdeveloper/finamore_repo
+ls
+cd finamore_repo
+ls
+history
+history > historial.txt
+ls
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "Primer commit"
+ls
+cd repogit
+pwd
+ls
+cd ..
+ssh-keygen -t ed25519
+ls
+ls -l
+ls -la
+pwd
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+rm -r finamore_repo/
+ls -l
+sudo rm -r finamore_repo
+ls -l
+pwd
+git clone git@github.com:bitromdeveloper/finamore_repo.git
+ls
+ls -l
+cd finamore_repo
+echo "hola"
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer commit"
+ls -l
+git status
+git push
+git status
+cat /etc/passwd
+tail -n3 /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls -l
+sort arhivo2.txt
+sort archivo2.txt
+echo "saludos" >> chau.txt
+cat chau.txt
+cat archivo3.txt chau.txt > archivo4.txt
+ls -l
+cat hola.txt chau.txt > archivo3.txt
+ls -l
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep -n model
+cat /proc/cpuinfo | head -n2
+cat | /proc/cpuinfo | grep model
+git status
+cd .ssh
+git status
+cd ..
+vagrant status
+status
+echo "hola"
+git status
+cd
+cd .ssh
+git status
+git
+git add
+echo "chau" > chau.txt
+ls
+ls -l
+sudo rm -r chau.txt
+ls -l
+cd ..
+vagrant halt
+help
+exit
+vagrant status
+ls
+cd .ssh
+cd ..
+ls
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "bitrom"
+git config --global user.email "finamorelucas@hotmail.com"
+git config --list
+ssh-keygen -t rsa -b 4096 -C "finamorelucas@hotmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh-keygen
+ls
+ls -la
+ssh
+cs shs
+cd .ssh
+ls -la
+cs ..
+cd ..
+exit
+cat $HOME/.ssh/*.pub
+ls
+cd repogit
+ls
+git clone git@github.com:bitromdeveloper/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep
+grep --help
+grep -i HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add
+git add .
+git config --global user.email "finamorelucas@hotmail.com"
+git config --global user.name "bitrom"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep cpuinfo
+grep -m 1 "model name" /proc/cpuinfo >> datos_usuarios.txt
+tail -n1
+git add datos_usuarios.txt
+git commit -m "Añadiendo informacion del cpu"
+cat /etc/passwd
+grep -v "nologin"
+cat /etc/passwd | grep -v "nologin"
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t -k7 > lista_ordenada
+cat lista_ordenada
+ls
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t -k7 > lista_ordenada.txt
+cat lista_ordenada.txt
+ls
+sudo rm -r "lista_ordenada"
+ls
+cat lista_ordenada.txt
+ls -l
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t -k7 >> lista_ordenada.txt
+ls -l
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 >> lista_ordenada.txt
+ls -l
+sudo rm -r "lista_ordenada.txt"
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 > lista_ordenada.txt
+ls -l
+cat lista_ordenada.txt
+git add "lista_ordenada.txt"
+git commit -m "Listado de usuarios ordenada"
+agropos traffic
+man tcpdump
+echo "tcpdump" > comando_dump_net
+echo "Para buscar este comando, ejecuta: apropos traffic o man tcpdmp" >> comando_dump_net
+echo "tcpdump" > comando_dump_net.txt
+echo "Para buscar este comando, ejecuta: apropos traffic o man tcpdmp" >> comando_dump_net.txt
+sudo rm -r "comando_dump_net"
+ls -l
+git add comando_dump_net.txt
+git commit -m "Comando para dump de trafico de red"
+exit
